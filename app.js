@@ -7,6 +7,8 @@ new Vue({
 
 		name: 'Shaun',
 		job: 'Ninja',
+		website: 'http://google.com',
+		websiteTag: '<a href="http://google.com">Porfolio</a>',
 
 	},
 

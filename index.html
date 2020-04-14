@@ -13,6 +13,11 @@
 
 	<div id="vue-app">
 		<h1>{{ greet('Afternoon') }}</h1>
+
+		<a :href="website">Website</a>
+		<input type="text" :value="job">
+		<p v-html="websiteTag"></p>
+
 		<p>Name: {{ name }}</p>
 		<p>Job: {{ job }}</p>
 	</div>
