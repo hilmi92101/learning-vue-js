@@ -5,18 +5,33 @@ new Vue({
 	data: {
 
 
-		name: 'Shaun',
-		job: 'Ninja',
-		website: 'http://google.com',
-		websiteTag: '<a href="http://google.com">Porfolio</a>',
+		age: 25,
+		x: 0,
+		y: 0,
+
 
 	},
 
 	methods: {
 
-		greet: function(time){
+		add: function(inc){
 
-			return 'Good ' + time + ', ' + this.name;
+			this.age = this.age + inc;
+
+		},
+
+		subtract: function(dec){
+
+			this.age = this.age - dec;
+
+		},
+
+		updateXY: function(event){
+
+			console.log(event);
+
+			this.x = event.offsetX;
+			this.y = event.offsetY;
 
 		}
 
