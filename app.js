@@ -5,19 +5,19 @@ new Vue({
 	data: {
 
 
-		age: 25,
-		x: 0,
-		y: 0,
-
+		name: '',
+		age: '',
+		
 
 	},
 
 	methods: {
 
 		logName: function(){
-            console.log('you entered your name');
+
+			console.log('you entered your name');
         },
-        
+
         logAge: function(){
             console.log('you entered your age');
         }
