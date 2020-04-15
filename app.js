@@ -14,32 +14,13 @@ new Vue({
 
 	methods: {
 
-		add: function(inc){
-
-			this.age = this.age + inc;
-
-		},
-
-		subtract: function(dec){
-
-			this.age = this.age - dec;
-
-		},
-
-		updateXY: function(event){
-
-			console.log(event);
-
-			this.x = event.offsetX;
-			this.y = event.offsetY;
-
-		}, 
-
-		click: function(){
-
-			alert('You clicked me');
-
-		}, 
+		logName: function(){
+            console.log('you entered your name');
+        },
+        
+        logAge: function(){
+            console.log('you entered your age');
+        }
 
 
 	}
