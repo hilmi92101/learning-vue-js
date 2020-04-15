@@ -10,6 +10,10 @@ span{
     background: green;
 }
 
+.borderCard span{
+    border: 10px solid black;
+}
+
 .nearby span:after{
     content: "nearby";
     margin-left: 10px;
