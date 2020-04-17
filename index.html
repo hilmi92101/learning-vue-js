@@ -11,21 +11,18 @@
 <body>
 
 
-	<div id="vue-app">
-	
 
-        <h1>Templates</h1>
-        <div id="vue-app-one">
-            <h1>Vue App One</h1>
-            <greeting></greeting>
-        </div>
-        <div id="vue-app-two">
-            <h1>Vue App Two</h1>
-            <greeting></greeting>
-        </div>
+    <h1>Refs</h1>
+
+    <div id="vue-app-one">
+        <input type="text" ref="input" />
+        <input type="text" ref="input_2" />
+        <button v-on:click="readRefs">Submit</button>
+        <p>{{ output }}</p>
+        <p>{{ output_2 }}</p>
+    </div>
 
 
-	</div>
 
 
 	<script src="app.js"></script>
